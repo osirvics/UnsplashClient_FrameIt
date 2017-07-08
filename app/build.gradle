@@ -4,10 +4,10 @@ android {
 
     signingConfigs {
         config {
-            keyAlias 'kedvic'
-            keyPassword 'aa25da90'
+            keyAlias 'generateYours'
+            keyPassword 'generateYours'
             storeFile file('C:/Users/Victor/Documents/Modified/frameit.jks')
-            storePassword 'chemistry12'
+            storePassword 'generateYours'
         }
     }
 
