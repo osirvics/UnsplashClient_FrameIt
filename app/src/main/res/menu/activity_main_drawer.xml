@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/photo_of_the_day" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/cats" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/rate_black"
+            android:title="@string/rate_app" />
+        <!--<item-->
+            <!--android:id="@+id/nav_manage"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="Tools" />-->
+    </group>
+
+    <!--<item android:title="Info">-->
+        <!--//<menu>-->
+    <group android:checkableBehavior="single"
+        android:id="@+id/bottomGroup">
+
+        <item
+            android:id="@+id/nav_settings"
+            android:title="@string/settings"
+            android:icon="@drawable/ic_settings"
+            />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_about_white"
+                android:title="@string/about" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/send_feedback" />
+    </group>
+       <!--// </menu>-->
+    <!--</item>-->
+
+</menu>

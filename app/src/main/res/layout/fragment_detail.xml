@@ -1,0 +1,120 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="false"
+    android:layout_height="match_parent"
+    >
+    <!--<TextView-->
+        <!--android:id="@+id/section_label"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:fitsSystemWindows="false"
+        android:layout_height="match_parent">
+        <ProgressBar
+            android:id="@+id/empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:indeterminate="true"
+            />
+
+        <ImageView
+            android:id="@+id/detail_image"
+            android:fitsSystemWindows="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+          />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom|center_horizontal"
+            android:orientation="vertical"
+            android:layout_height="140dp"
+            android:background="@color/author_background">
+
+            <TextView
+                android:id="@+id/author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:lines="1"
+                android:text="this"
+                android:paddingBottom="@dimen/padding_small"
+                android:paddingEnd="@dimen/padding_normal"
+                android:paddingStart="@dimen/padding_normal"
+                android:paddingTop="@dimen/padding_large"
+                android:textColor="@color/white_placeholder" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/bottombar_img_Favorite"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingEnd="@dimen/padding_normal"
+                    android:paddingStart="@dimen/padding_normal"
+                    android:paddingTop="@dimen/padding_large"
+                    android:clickable="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_star"  />
+
+                <TextView
+                    android:id="@+id/likes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|top"
+                    android:textAllCaps="true"
+                    android:lines="1"
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:text="this"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingTop="27dp"
+                    android:textColor="@color/white_placeholder" />
+
+                <!--<Button-->
+                    <!--android:id="@+id/my_flat_button"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_marginStart="65dp"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:text="SOURCE"-->
+                    <!--android:textAppearance="@style/TextAppearance.AppCompat.Button"-->
+                    <!--android:textColor="#2196f3"-->
+                    <!--style="?borderlessButtonStyle"-->
+                    <!--android:layout_marginLeft="75dp" />-->
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:rippleColor="@color/placeholder_grey"
+        app:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        app:backgroundTint="#448aff"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="25dp"
+        app:srcCompat="@drawable/ic_wallapaper" />
+    <include layout="@layout/error_layout"/>
+
+    </android.support.design.widget.CoordinatorLayout>

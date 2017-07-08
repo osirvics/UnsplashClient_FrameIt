@@ -1,0 +1,28 @@
+<android.support.v7.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.preference.PreferenceCategory
+        android:title="@string/preference">
+
+        <android.support.v7.preference.SwitchPreferenceCompat
+            android:key="daily_wallpaper"
+            android:title="@string/daily_wallpaper"
+            android:summary="@string/daily_summary"
+            android:defaultValue="false"
+            android:persistent="true"/>
+
+        <!--<android.support.v7.preference.EditTextPreference-->
+            <!--android:key="key2"-->
+            <!--android:title="EditText Preference"-->
+            <!--android:summary="EditText Summary"-->
+            <!--android:dialogMessage="Dialog Message"-->
+            <!--android:defaultValue="Default value" />-->
+        <!--<android.support.v7.preference.CheckBoxPreference-->
+            <!--android:key="key3"-->
+            <!--android:title="CheckBox Preference"-->
+            <!--android:summary="CheckBox Summary"-->
+            <!--android:defaultValue="true"/>-->
+    </android.support.v7.preference.PreferenceCategory>
+
+</android.support.v7.preference.PreferenceScreen>

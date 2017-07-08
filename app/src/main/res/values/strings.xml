@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">FrameIT</string>
+
+    <!-- Navigational Drawer-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="unsplash_noted">Free High resolution photos</string>
+    <string name="photo_of_the_day">Photo of the day</string>
+    <string name="cats">Cats</string>
+    <string name="rate_app">Rate app</string>
+    <string name="about">About</string>
+    <string name="send_feedback">Send feedback</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Search photos...</string>
+
+   <!-- Strings related to Settings -->
+    <string name="settings">Settings</string>
+    <string name="preference">Preferences</string>
+    <string name="daily_wallpaper">Daily Wallpaper</string>
+    <string name="daily_summary">Apply a new wallpaper everyday</string>
+
+    <!--Viewpager-->
+    <string name="list_of_new_photos">New</string>
+    <string name="list_of_featured_photos">Featured</string>
+    <string name="list_of_photo_collections">Collections</string>
+
+
+    <!-- Error Messages-->
+    <string name="error_msg">Sorry! Couldn\'t fetch pictures.</string>
+    <string name="btn_retry">RETRY</string>
+    <string name="error_msg_no_internet">No internet connection, Turn ON data or wifi</string>
+    <string name="error_msg_timeout">The server took too long to respond</string>
+    <string name="error_msg_unknown">An unexpected error occurred</string>
+    <string name="tap_to_reload">Tap to reload</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_collection_list">CollectionListActivity</string>
+    <string name="error_header">Couldn\'t download and apply wallpaper</string>
+
+
+    <!--String Related to Detail Activity-->
+    <string name="photo_by">Photo by %1$s</string>
+    <string name="retry">RETRY</string>
+    <string name="success">"Wallpaper set successfully"</string>
+
+
+    <!--String Related to Collections Activity-->
+    <string name="number_of_photos_in_col"> %1$s PHOTOS</string>
+
+
+    <!--About Page-->
+    <string name="join_community">Join Our Google Plus Community </string>
+    <string name="community">Do you have questions, design suggestions to improve this app or need help? click here to join others now!  </string>
+    <string name="group_one_heading">FrameIT</string>
+    <string name="group_one_version">Version</string>
+    <string name="group_one_licenses">Licenses</string>
+    <string name="group_two_heading">Support Development</string>
+    <string name="group_two_report_bug">Report bugs</string>
+    <string name="bugs">This app is still in beta, report bugs here, suggest features or design to improve this app</string>
+    <string name="remove_ads">Remove Ads</string>
+    <string name="ads">Music Player Pro</string>
+    <string name="share_app">Share this app</string>
+    <string name="rate">Drop a positive review on Google Play Store</string>
+    <string name="developer">About Developer</string>
+    <string name="connect">Connect on LinkedIn</string>
+    <string name="send_to">Share app</string>
+    <string name="send_via">Report via</string>
+
+    <string name="title_activity_cats">CatsActivity</string>
+    <string name="cat_here">Cats</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_cat">CatActivity</string>
+
+
+    <!-- Admob-->
+    <string name="app_id">ca-app-pub-7549886159702245~2347240016</string>
+    <string name="collections_home">ca-app-pub-7549886159702245/8254172816</string>
+    <string name="home_fragment">ca-app-pub-7549886159702245/6777439619</string>
+    <string name="cats_adds">ca-app-pub-7549886159702245/2207639216</string>
+
+
+    <plurals name="charge_notification_count">
+        <item quantity="zero">Hydrate while charging reminder sent %d times</item>
+        <item quantity="one">Hydrate while charging reminder sent %d time</item>
+        <item quantity="other">Hydrate while charging reminder sent %d times</item>
+    </plurals>
+
+
+    <!-- Strings for Notifications and Toasts -->
+    <string name="water_chug_toast">GLUG GLUG GLUG</string>
+
+    <string name="charging_reminder_notification_title">Device Charging - Where\'s that water?</string>
+    <string name="charging_reminder_notification_body">There\'s never a better time to drink water than when you know your phone is charging. Drink up!</string>
+
+
+
+</resources>
